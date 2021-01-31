@@ -80,5 +80,23 @@ a:hover{
 
 /* buttons*/
 .search-buttons{
-    border: 1px solid black;
+    
+    width: 20%;
+    display: flex;
+    justify-content:space-evenly ;
+    padding: 12px;
 }
+
+button{
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+button:hover{
+    border: 1px solid lightgray;
+    background-color:lightgoldenrodyellow
+}
+
+/*translation*/

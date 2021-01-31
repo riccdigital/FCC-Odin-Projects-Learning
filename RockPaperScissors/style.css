@@ -30,6 +30,7 @@ input:focus{
 button{
     padding: 8px;
     border-radius: 6px;
+    font-size: 0.9rem;
 }
 
 #output{

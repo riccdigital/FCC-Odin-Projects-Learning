@@ -1,12 +1,50 @@
-*{
+/* reset*/
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
-body{
+
+/* body */
+body {
     border: 1px solid black;
-    display: flex;
+    display: grid;
     height: 100vh;
     width: 100%;
-    flex-direction: column;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* navigation bar*/
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+}
+
+.navbar-links {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 0 14px;
+    padding: 12px;
+    align-items: center;
+}
+
+.navbar-links div a img {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.link {
+    padding: 0 6px;
 }

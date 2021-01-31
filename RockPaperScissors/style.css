@@ -4,6 +4,7 @@ html{
 
 body{
     text-align: center;
+    position: relative;
 }
 
 .input-container{
@@ -29,4 +30,16 @@ input:focus{
 button{
     padding: 8px;
     border-radius: 6px;
+}
+
+#output{
+    font-size: 1.2rem;
+}
+
+.rules-container{
+   
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    
 }
